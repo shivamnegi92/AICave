@@ -1,7 +1,7 @@
 # 🔥 Deep Learning Cave: A Stone Age Retreat
 
 > *"You don't need to understand how it works, just use the API."*  
-> — **Horrible advice** we once believed
+> — **Horrible advice** I once believed
 
 ---
 
@@ -15,11 +15,11 @@
 
 **It all started with horrible advice.**
 
-*"Just use the API,"* they said. *"Why build from scratch?"* they asked. *"It's already solved!"* they proclaimed. *"You don't need to understand neural networks to use them!"* they confidently assured us.
+*"Just use the API,"* they said. *"Why build from scratch?"* they asked. *"It's already solved!"* they proclaimed. *"You don't need to understand neural networks to use them!"* they confidently assured me.
 
-And we believed them.
+And I believed them.
 
-For months, we happily typed:
+For months, I happily typed:
 ```python
 model = API.get_magic_ai("gpt-9000-ultra-mega")
 result = model.generate("solve world hunger")
@@ -27,27 +27,27 @@ result = model.generate("solve world hunger")
 
 **Life was good.** Until it wasn't.
 
-When the model failed, we stared at error messages like ancient hieroglyphics. When it hallucinated, we shrugged and tweaked the prompt 47 times. When asked *"But how does attention work?"* in a meeting, we froze like a deer in headlights and mumbled something about "tokens" and "weights" before excusing ourselves to the bathroom.
+When the model failed, I stared at error messages like ancient hieroglyphics. When it hallucinated, I shrugged and tweaked the prompt 47 times. When asked *"But how does attention work?"* in a meeting, I froze like a deer in headlights and mumbled something about "tokens" and "weights" before excusing myself to the bathroom.
 
-**We had become API archaeologists** — digging through documentation, praying to the gods of Stack Overflow, and offering sacrifices to the error log deities.
+**I had become an API archaeologist** — digging through documentation, praying to the gods of Stack Overflow, and offering sacrifices to the error log deities.
 
-One fateful day, during our 3 AM debugging session (fueled by questionable coffee ☕ and existential dread), we had an epiphany:
+One fateful day, during my 3 AM debugging session (fueled by questionable coffee ☕ and existential dread), I had an epiphany:
 
-> *"What if... we actually learned how this thing works?"*
+> *"What if... I actually learned how this thing works?"*
 
-Revolutionary, we know.
+Revolutionary, I know.
 
-And thus began our journey **back to the cave**. Not to rediscover fire, but to rediscover how deep learning actually works. Chiseling neural networks onto stone tablets. Building Transformers with our bare hands. Creating CNNs from raw PyTorch ore.
+And thus began my journey **back to the cave**. Not to rediscover fire, but to rediscover how deep learning actually works. Chiseling neural networks onto stone tablets. Building Transformers with my bare hands. Creating CNNs from raw PyTorch ore.
 
-Like our ancestors who didn't just *use* fire but learned to *create* it, we decided to retreat to fundamentals. No black boxes. No magic. No more horrible advice. Just pure mathematics, code, and the stubborn determination to understand every neuron, every gradient, every backprop.
+Like my ancestors who didn't just *use* fire but learned to *create* it, I decided to retreat to fundamentals. No black boxes. No magic. No more horrible advice. Just pure mathematics, code, and the stubborn determination to understand every neuron, every gradient, every backprop.
 
-**This repository is that retreat.** A stone age sanctuary where we build everything from scratch. Where "state-of-the-art" means understanding the art, not just using it. Where cave paintings become architecture diagrams, and stone tools become tensor operations.
+**This repository is that retreat.** A stone age sanctuary where I build everything from scratch. Where "state-of-the-art" means understanding the art, not just using it. Where cave paintings become architecture diagrams, and stone tools become tensor operations.
 
-*Are we reinventing the wheel?* **Yes.** But we're learning why wheels are round, why square wheels fail, and how to craft better wheels for tomorrow.
+*Am I reinventing the wheel?* **Yes.** But I'm learning why wheels are round, why square wheels fail, and how to craft better wheels for tomorrow.
 
-*Could we just use frameworks?* **Absolutely.** But then we'd still be taking horrible advice—being users instead of creators, consumers instead of craftsmen.
+*Could I just use frameworks?* **Absolutely.** But then I'd still be taking horrible advice—being a user instead of a creator, a consumer instead of a craftsman.
 
-So grab your chisel 🔨 (the PyTorch kind), light your torch 🔥, and join us in this ancient-modern cave. Let's carve deep learning into stone, one implementation at a time.
+So grab your chisel 🔨 (the PyTorch kind), light your torch 🔥, and join me in this ancient-modern cave. Let's carve deep learning into stone, one implementation at a time.
 
 **Welcome to the retreat. Welcome to the cave.** 🏔️
 
@@ -55,13 +55,7 @@ So grab your chisel 🔨 (the PyTorch kind), light your torch 🔥, and join us 
 
 ## 🌟 About This Repository
 
-Welcome to a hands-on journey through the world of **Transformer architectures**! This repository is your complete guide to understanding modern AI models — from foundational PyTorch concepts to state-of-the-art architectures like **LLaMA**.
-
----
-
-## 🌟 About This Repository
-
-Welcome to **Deep Learning Cave** — your stone age retreat for mastering AI from first principles!
+Welcome to **Deep Learning Cave** — my stone age retreat for mastering AI from first principles!
 
 This isn't just another tutorial repository. It's a **sanctuary for learning** where we abandon modern conveniences and build everything from scratch. From basic neural networks to cutting-edge Transformers, from simple perceptrons to LLaMA architectures.
 
@@ -73,7 +67,7 @@ Every line of code is explained. Every architecture decision is justified. Every
 
 ## 🎯 What You'll Learn
 
-By retreating to this cave, you'll master:
+By exploring this cave together, we'll master:
 
 ✅ **PyTorch fundamentals** — The bedrock of modern deep learning  
 ✅ **Neural network primitives** — From perceptrons to deep architectures  
@@ -154,14 +148,31 @@ This cave has many chambers, each teaching a different aspect of deep learning:
 
 **Key Learning:** How modern LLMs differ from the original Transformer and why.
 
-#### **Vision Transformers** → `vit_from_scratch.ipynb` *(Coming Soon)*
+#### **Vision Transformers** → `vit_from_scratch.ipynb` ✅
 *Transformers for computer vision*
 
-- Patch embeddings
-- Self-attention for images
-- Hybrid CNN-Transformer models
+- ✅ Patch embeddings — Images as sequences
+- ✅ Self-attention for images — Global receptive field
+- ✅ Learned positional encoding — 1D positions for 2D images
+- ✅ CLS token classification — Global feature aggregation
+- ✅ Attention visualization — See what ViT looks at
 
-### 🎓 Chamber 4: Advanced Techniques *(Planned)*
+**Key Learning:** How to apply Transformers to vision tasks without convolutions.
+
+### 🧠 Chamber 4: Self-Supervised Learning *(Current)*
+
+#### **I-JEPA** → `jepa_from_scratch.ipynb` ✅
+*Yann LeCun's vision for the future of AI*
+
+- ✅ **Multi-block masking** — Semantic region prediction
+- ✅ **EMA target encoder** — Stable learning without collapse
+- ✅ **Predictor network** — Narrow Transformer for latent prediction
+- ✅ **Smooth L1 loss** — No pixels, no contrastive, just representations
+- ✅ **Linear probing** — Evaluate learned features
+
+**Key Learning:** Predict abstract representations, not pixels — the next paradigm in self-supervised learning.
+
+### 🎓 Chamber 5: Advanced Techniques *(Planned)*
 
 #### **Optimization Strategies**
 - Adam, AdamW, Lion optimizers
@@ -181,7 +192,7 @@ This cave has many chambers, each teaching a different aspect of deep learning:
 - Knowledge distillation
 - LoRA fine-tuning
 
-### 🔬 Chamber 5: Research Frontiers *(Future)*
+### 🔬 Chamber 6: Research Frontiers *(Future)*
 
 #### **Efficient Architectures**
 - Flash Attention
@@ -194,6 +205,11 @@ This cave has many chambers, each teaching a different aspect of deep learning:
 - Text-to-image models
 - Cross-modal attention
 
+#### **Advanced Self-Supervised**
+- V-JEPA (Video prediction)
+- Hierarchical JEPA
+- World models
+
 ---
 
 ## 📂 Cave Layout (Repository Structure)
@@ -201,15 +217,20 @@ This cave has many chambers, each teaching a different aspect of deep learning:
 ```
 deep-learning-cave/
 │
-├── pytorch_functions_overview.ipynb    # 20 essential PyTorch concepts + DNN example
-├── transformer_from_scratch.ipynb      # Vanilla Transformer (2017)
-├── llama_from_scratch.ipynb            # Modern LLaMA implementation
-├── llama_complete.ipynb                # Complete LLaMA training pipeline
+├── 1. pytorch_functions_overview.ipynb   # 20 essential PyTorch concepts + DNN example
+├── 2. transformer_from_scratch.ipynb     # Vanilla Transformer (Vaswani et al., 2017)
+├── 3. llama from scratch.ipynb           # Modern LLaMA implementation
+├── 4. vit_from_scratch.ipynb             # Vision Transformer (Dosovitskiy et al., 2020)
+├── 5. jepa_from_scratch.ipynb            # I-JEPA self-supervised learning (Assran et al., 2023)
 │
-├── llama_checkpoint.pt                 # Trained model checkpoint
+├── requirements.txt                       # Project dependencies
+├── llama_checkpoint.pt                    # Trained model checkpoint
+│
+├── assets/
+│   └── origin.jpg                         # Origin story image
 │
 └── .github/
-    └── copilot-instructions.md         # Cave coding guidelines
+    └── copilot-instructions.md            # Cave coding guidelines
 ```
 
 ---
@@ -220,8 +241,11 @@ deep-learning-cave/
 
 ```bash
 # Python 3.8+
-# PyTorch 2.0+ (your stone age tools)
-pip install torch torchvision torchaudio
+# Install dependencies
+pip install -r requirements.txt
+
+# Or manually:
+pip install torch torchvision numpy matplotlib scikit-learn
 ```
 
 ### Enter the Cave
@@ -237,9 +261,10 @@ cd deep-learning-cave
    - Learn the ancient art of tensors and neural networks
 
 3. **Explore deeper chambers:**
-   - Build your first Transformer: `transformer_from_scratch.ipynb`
-   - Master modern architectures: `llama_from_scratch.ipynb`
-   - Train your own models: `llama_complete.ipynb`
+   - Build your first Transformer: `2. transformer_from_scratch.ipynb`
+   - Master modern architectures: `3. llama from scratch.ipynb`
+   - Learn vision Transformers: `4. vit_from_scratch.ipynb`
+   - Explore self-supervised learning: `5. jepa_from_scratch.ipynb`
 
 4. **Carve your own path:**
    - Modify examples to test understanding
@@ -250,7 +275,7 @@ cd deep-learning-cave
 
 ## 💡 Cave Philosophy
 
-### ✨ Stone Age Principles
+### ✨ Our Stone Age Principles
 - **Build everything from scratch** — No external AI libraries (except PyTorch)
 - **Understand every line** — No magic, no "just trust me"
 - **Progressive mastery** — Start simple, earn complexity
@@ -285,10 +310,11 @@ cd deep-learning-cave
 ### 🟡 Craftsman (Intermediate)  
 *Comfortable with PyTorch, ready for architectures*
 
-1. Complete `pytorch_functions_overview.ipynb` (all 20 sections)
-2. Build `transformer_from_scratch.ipynb` independently
-3. Compare vanilla Transformer with `llama_from_scratch.ipynb`
+1. Complete `1. pytorch_functions_overview.ipynb` (all 20 sections)
+2. Build `2. transformer_from_scratch.ipynb` independently
+3. Compare vanilla Transformer with `3. llama from scratch.ipynb`
 4. Understand modern improvements (RoPE, GQA, SwiGLU)
+5. Build `4. vit_from_scratch.ipynb` for vision understanding
 
 **Time investment:** 1-2 months  
 **Milestone:** Implement Transformer without reference
@@ -297,7 +323,7 @@ cd deep-learning-cave
 *Deep understanding, ready to innovate*
 
 1. Master all notebooks in the cave
-2. Implement architecture variants (different attention, normalization)
+2. Implement `5. jepa_from_scratch.ipynb` — self-supervised learning
 3. Optimize for speed and memory
 4. Contribute new tutorials or chambers
 
@@ -330,9 +356,9 @@ If this cave helped you, please:
 
 ---
 
-## 📫 Find the Cave Elder
+## 📫 Find Me (The Cave Elder)
 
-I carved this cave to make deep learning accessible. Let's connect!
+I carved this cave to make deep learning accessible to myself and others. Let's connect!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shivamnegi/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/shivamnegi92)
@@ -350,6 +376,8 @@ I carved this cave to make deep learning accessible. Let's connect!
 ### Sacred Texts (Papers)
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762) — Transformer origin (Vaswani et al., 2017)
 - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971) — Meta AI, 2023
+- [An Image is Worth 16x16 Words](https://arxiv.org/abs/2010.11929) — Vision Transformer (Dosovitskiy et al., 2020)
+- [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) — I-JEPA (Assran et al., 2023)
 - [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) — ResNet (He et al., 2015)
 - [ImageNet Classification with Deep CNNs](https://papers.nips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html) — AlexNet (Krizhevsky et al., 2012)
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864) — RoPE, 2021
@@ -380,15 +408,15 @@ MIT License — Share the knowledge freely, like cave paintings.
 
 ## 🎯 Expedition Status
 
-**Current Phase:** ✅ Foundation chambers complete (PyTorch, DNNs, Transformers, LLaMA)  
-**Next Expedition:** 🚧 Building CNN and RNN chambers  
+**Current Phase:** ✅ Core chambers complete (PyTorch, Transformers, LLaMA, ViT, JEPA)  
+**Next Expedition:** 🚧 Building CNN and RNN chambers (Classical Architectures)  
 **Long-term Vision:** 🌟 Complete stone age retreat covering all deep learning
 
 ---
 
 <div align="center">
 
-**Carved with ❤️ by stone age learners, for stone age learners**
+**Carved with ❤️ by a stone age learner, for stone age learners**
 
 *"In the beginner's mind there are many possibilities, in the expert's mind there are few."* — Shunryu Suzuki
 
