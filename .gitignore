@@ -56,3 +56,9 @@ ENV/
 
 # Local AI agent instructions (not for version control)
 .copilot.md
+
+# Accidental duplicate directories (macOS "copy" folders)
+.github copy/
+
+# Scratch / unnamed notebooks
+Untitled*.ipynb
